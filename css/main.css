@@ -35,9 +35,28 @@ html {
 }
 
 .hand-hour {
+  position: absolute;
+  top: 203px;
+  left: 394px;
+
+  transform-origin: top;
+  animation: spin 2s infinite linear;
+
+}
+
+@keyframes spin {
+
+  0% { transform: rotate(0deg); }
+
+  100% { transform: rotate(360deg); }
 
 }
 
 .hand-minute {
+  position: absolute;
+  top: 203px;
+  left: 394px;
 
+  transform-origin: top;
+  animation: spin 0.5s infinite linear;
 }
